@@ -1,6 +1,6 @@
 "use client";
 
-import { Mail, MessageCircle, MapPin, ArrowRight } from "lucide-react";
+import { Mail, MessageCircle, MapPin } from "lucide-react";
 import Image from "next/image";
 
 export default function Footer() {

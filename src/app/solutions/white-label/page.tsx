@@ -11,7 +11,6 @@ import {
   Shield,
   BarChart3,
   Users,
-  Headphones,
   Zap,
   ArrowRight,
 } from "lucide-react";

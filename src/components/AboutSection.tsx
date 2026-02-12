@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Target, Eye, Globe, Users, Award, Clock } from "lucide-react";
+import { Target, Eye, Globe } from "lucide-react";
 
 export default function AboutSection() {
   return (

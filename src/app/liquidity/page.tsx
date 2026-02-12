@@ -14,11 +14,9 @@ import {
   Smartphone,
   Layers,
   Copy,
-  Users,
   LayoutDashboard,
   TrendingUp,
   BarChart3,
-  Headphones,
 } from "lucide-react";
 
 const clientIntegrationFeatures = [

@@ -1,15 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Code2, Globe, TrendingUp, Palette } from "lucide-react";
-
-const highlights = [
-  { icon: Code2, text: "Web & Mobile Apps" },
-  { icon: TrendingUp, text: "Digital Marketing" },
-  { icon: Globe, text: "CRM & Automation" },
-  { icon: Palette, text: "UI/UX Design" },
-];
-
 const stats = [
   { value: "250+", label: "Projects Delivered" },
   { value: "50+", label: "Global Clients" },
