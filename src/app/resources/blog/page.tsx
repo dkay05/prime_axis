@@ -20,10 +20,10 @@ export default function BlogPage() {
         {posts.map((post) => (
           <div key={post.title} className="bg-zinc-900/50 border border-zinc-800 rounded-xl p-6 hover:border-zinc-700 transition-colors group cursor-pointer">
             <div className="flex items-center gap-2 mb-3">
-              <BookOpen className="w-4 h-4 text-blue-400" />
-              <span className="text-blue-400 text-xs font-medium">{post.category}</span>
+              <BookOpen className="w-4 h-4 text-gold-400" />
+              <span className="text-gold-400 text-xs font-medium">{post.category}</span>
             </div>
-            <h3 className="text-white font-semibold text-lg mb-2 group-hover:text-blue-400 transition-colors">{post.title}</h3>
+            <h3 className="text-white font-semibold text-lg mb-2 group-hover:text-gold-400 transition-colors">{post.title}</h3>
             <p className="text-zinc-400 text-sm leading-relaxed mb-4">{post.excerpt}</p>
             <span className="text-zinc-500 text-xs">{post.date}</span>
           </div>

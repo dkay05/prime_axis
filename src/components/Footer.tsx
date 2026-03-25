@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <footer id="contact" className="relative pt-20 pb-8 overflow-hidden border-t border-zinc-800/50 bg-zinc-950">
       {/* Subtle gradient glow */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-px bg-gradient-to-r from-transparent via-blue-500/30 to-transparent" />
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-px bg-gradient-to-r from-transparent via-gold-500/30 to-transparent" />
 
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         {/* Main Footer Content */}
@@ -15,11 +15,11 @@ export default function Footer() {
           {/* Left - Brand & Address */}
           <div className="max-w-sm">
             <div className="mb-5">
-              <Image src="/logo.png" alt="SetupFX24" width={140} height={36} className="h-9 w-auto" />
+              <Image src="/primeAxis_logo_L.png" alt="PrimeAxis" width={140} height={36} className="h-9 w-auto" />
             </div>
             <p className="text-white font-semibold text-sm mb-2">SetupFX Softtech (OPC) Private Limited</p>
             <div className="flex items-start gap-2.5 mb-5">
-              <MapPin className="w-4 h-4 text-blue-400 mt-0.5 flex-shrink-0" />
+              <MapPin className="w-4 h-4 text-gold-400 mt-0.5 flex-shrink-0" />
               <p className="text-zinc-400 text-xs leading-relaxed">
                 Office 9364hn 3 Fitzroy Place, Area 1/1, Sauchiehall Street, Glasgow City Centre, United Kingdom, G3 7RH
               </p>
@@ -35,8 +35,8 @@ export default function Footer() {
             <ul className="space-y-4">
               <li>
                 <a href="mailto:setupfx24@gmail.com" className="flex items-center gap-3 text-zinc-400 text-sm hover:text-white transition-colors group">
-                  <div className="w-9 h-9 rounded-lg bg-blue-500/10 border border-blue-500/20 flex items-center justify-center group-hover:bg-blue-500/20 transition-colors">
-                    <Mail className="w-4 h-4 text-blue-400" />
+                  <div className="w-9 h-9 rounded-lg bg-gold-500/10 border border-gold-500/20 flex items-center justify-center group-hover:bg-gold-500/20 transition-colors">
+                    <Mail className="w-4 h-4 text-gold-400" />
                   </div>
                   setupfx24@gmail.com
                 </a>

@@ -20,8 +20,8 @@ export default function IBManagementPage() {
     >
       <div className="grid lg:grid-cols-2 gap-12">
         <div>
-          <div className="w-14 h-14 rounded-xl bg-blue-500/10 border border-blue-500/20 flex items-center justify-center mb-6">
-            <Users className="w-7 h-7 text-blue-400" />
+          <div className="w-14 h-14 rounded-xl bg-gold-500/10 border border-gold-500/20 flex items-center justify-center mb-6">
+            <Users className="w-7 h-7 text-gold-400" />
           </div>
           <h2 className="text-2xl font-bold text-white mb-4">Grow Your Partner Network</h2>
           <p className="text-zinc-400 leading-relaxed mb-8">
@@ -30,7 +30,7 @@ export default function IBManagementPage() {
           <ul className="space-y-3">
             {features.map((feature) => (
               <li key={feature} className="flex items-start gap-3">
-                <CheckCircle className="w-5 h-5 text-blue-400 mt-0.5 flex-shrink-0" />
+                <CheckCircle className="w-5 h-5 text-gold-400 mt-0.5 flex-shrink-0" />
                 <span className="text-zinc-300">{feature}</span>
               </li>
             ))}

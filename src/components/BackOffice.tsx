@@ -24,7 +24,7 @@ export default function BackOffice() {
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
           >
-            <span className="text-xs tracking-[0.2em] uppercase text-blue-400 font-medium">Solutions</span>
+            <span className="text-xs tracking-[0.2em] uppercase text-gold-400 font-medium">Solutions</span>
             <h2 className="text-3xl md:text-4xl font-bold mt-4 tracking-tight text-white leading-tight">
               Tailored Solutions for Every Business Need
             </h2>
@@ -41,9 +41,9 @@ export default function BackOffice() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.4, delay: index * 0.1 }}
-                  className="flex items-start gap-3 p-4 rounded-lg border border-zinc-800 bg-zinc-900/50 hover:border-blue-500/20 transition-colors"
+                  className="flex items-start gap-3 p-4 rounded-lg border border-zinc-800 bg-zinc-900/50 hover:border-gold-500/20 transition-colors"
                 >
-                  <item.icon className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" />
+                  <item.icon className="w-5 h-5 text-gold-400 flex-shrink-0 mt-0.5" />
                   <div>
                     <h4 className="text-white font-semibold text-sm">{item.title}</h4>
                     <p className="text-zinc-400 text-xs mt-1 leading-relaxed">{item.desc}</p>

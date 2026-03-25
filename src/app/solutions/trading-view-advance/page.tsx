@@ -47,7 +47,7 @@ export default function TradingViewAdvancePage() {
             <div className="flex items-center justify-between">
               <div className="flex gap-2">
                 {["1m", "5m", "15m", "1H", "4H", "1D"].map((tf, i) => (
-                  <div key={tf} className={`text-[9px] px-2 py-1 rounded ${i === 3 ? "bg-blue-600/20 text-blue-400" : "text-zinc-500 hover:text-zinc-300"} cursor-pointer`}>
+                  <div key={tf} className={`text-[9px] px-2 py-1 rounded ${i === 3 ? "bg-gold-600/20 text-gold-400" : "text-zinc-500 hover:text-zinc-300"} cursor-pointer`}>
                     {tf}
                   </div>
                 ))}

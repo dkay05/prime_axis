@@ -1,15 +1,13 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Code2, Zap, Users, Globe, HeadphonesIcon, ShieldCheck } from "lucide-react";
+import { Zap, Activity, ShieldCheck, Server } from "lucide-react";
 
 const differentiators = [
-  { icon: Code2, title: "Expert Development Team", benefit: "Senior engineers with deep expertise in React, Next.js, Flutter, Node.js, and cloud infrastructure." },
-  { icon: Zap, title: "Fast Delivery", benefit: "Agile methodology and proven processes mean your project goes live in weeks, not months." },
-  { icon: Users, title: "Dedicated Team", benefit: "A named project manager, designer, and development team assigned exclusively to your project." },
-  { icon: Globe, title: "Global Experience", benefit: "We've delivered projects across 15+ countries for startups, SMBs, and enterprise clients." },
-  { icon: HeadphonesIcon, title: "Ongoing Support", benefit: "Post-launch support, maintenance, and optimization to keep your product running at peak performance." },
-  { icon: ShieldCheck, title: "Quality Guaranteed", benefit: "Rigorous QA testing, code reviews, and security audits ensure enterprise-grade quality on every project." },
+  { icon: Zap, title: "Ultra-Fast Execution", benefit: "Our platform delivers lightning-speed order processing with execution times under 12ms for precise trade entry and exit." },
+  { icon: Activity, title: "Advanced Analytics", benefit: "Access 100+ technical indicators, real-time charting, and comprehensive market analysis tools built into our products." },
+  { icon: ShieldCheck, title: "Enterprise Security", benefit: "Bank-level 256-bit encryption, 2FA authentication, and segregated funds ensure your data and capital are protected." },
+  { icon: Server, title: "Multi-Platform Access", benefit: "Trade seamlessly across web, desktop, and mobile platforms with cloud-synced portfolios and real-time synchronization." },
 ];
 
 const containerVariants = {
@@ -35,12 +33,12 @@ export default function WhySetupFX() {
           transition={{ duration: 0.7 }}
           className="text-center mb-16"
         >
-          <span className="text-xs tracking-[0.2em] uppercase text-blue-400 font-medium">Why Choose Us</span>
+          <span className="text-xs tracking-[0.2em] uppercase text-gold-400 font-medium">Product Features</span>
           <h2 className="text-3xl md:text-5xl font-bold mt-4 tracking-tight text-white">
-            Why Businesses Trust SetupFX24
+            Powerful Trading Products
           </h2>
           <p className="mt-4 text-zinc-400 text-lg max-w-2xl mx-auto">
-            We combine technical excellence with strategic thinking to deliver solutions that truly make a difference.
+            Our products are built with cutting-edge technology to deliver institutional-grade performance, tight spreads, and lightning-fast execution.
           </p>
         </motion.div>
 
@@ -55,10 +53,10 @@ export default function WhySetupFX() {
             <motion.div
               key={item.title}
               variants={itemVariants}
-              className="group flex items-start gap-4 p-6 rounded-xl border border-zinc-800 bg-zinc-900/40 hover:border-blue-500/30 hover:bg-zinc-900/70 transition-all duration-300"
+              className="group flex items-start gap-4 p-6 rounded-xl border border-zinc-800 bg-zinc-900/40 hover:border-gold-500/30 hover:bg-zinc-900/70 transition-all duration-300"
             >
-              <div className="w-11 h-11 rounded-lg bg-blue-500/10 border border-blue-500/20 flex items-center justify-center flex-shrink-0 group-hover:bg-blue-500/20 transition-colors">
-                <item.icon className="w-5 h-5 text-blue-400" />
+              <div className="w-11 h-11 rounded-lg bg-gold-500/10 border border-gold-500/20 flex items-center justify-center flex-shrink-0 group-hover:bg-gold-500/20 transition-colors">
+                <item.icon className="w-5 h-5 text-gold-400" />
               </div>
               <div>
                 <h3 className="text-white font-semibold text-sm">{item.title}</h3>

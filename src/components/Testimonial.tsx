@@ -5,22 +5,22 @@ import { Star, Quote } from "lucide-react";
 
 const testimonials = [
   {
-    quote: "SetupFX24 built our entire e-commerce platform from scratch. The team delivered ahead of schedule, and our online revenue has grown 3x since launch. Their technical expertise and communication are outstanding.",
-    name: "Sarah Mitchell",
-    role: "CEO, Fashion Forward",
-    industry: "E-Commerce — United States",
+    quote: "Switching to this platform was the best move for my day trading. The execution speed is phenomenal, and the raw spreads have significantly reduced my trading costs.",
+    name: "Michael R.",
+    role: "Professional Day Trader",
+    industry: "Forex & Commodities",
   },
   {
-    quote: "We hired SetupFX24 for SEO and paid advertising. Within 6 months, our organic traffic increased by 280% and our cost per acquisition dropped by 40%. They truly understand digital growth.",
-    name: "James Chen",
-    role: "Marketing Director",
-    industry: "SaaS Company — Singapore",
+    quote: "As an institutional algorithm developer, I need API stability and zero requotes. The FIX API access here is flawless, and the deep liquidity handles our large volumes effortlessly.",
+    name: "Elena V.",
+    role: "Quant Analyst",
+    industry: "Hedge Fund",
   },
   {
-    quote: "The mobile app they developed for us has a 4.9-star rating with over 50K downloads. SetupFX24 didn't just build an app — they built a product that our users love. Highly recommended.",
-    name: "Priya Sharma",
-    role: "Founder & CTO",
-    industry: "Health & Fitness — India",
+    quote: "I started as a beginner, and the intuitive interface made it so easy to learn. The educational materials and constant support gave me the confidence to trade live.",
+    name: "David K.",
+    role: "Retail Trader",
+    industry: "Cryptos & Indices",
   },
 ];
 
@@ -37,12 +37,12 @@ export default function Testimonial() {
           transition={{ duration: 0.7 }}
           className="text-center mb-16"
         >
-          <span className="text-xs tracking-[0.2em] uppercase text-blue-400 font-medium">Testimonials</span>
+          <span className="text-xs tracking-[0.2em] uppercase text-gold-400 font-medium">Testimonials</span>
           <h2 className="text-3xl md:text-5xl font-bold mt-4 tracking-tight text-white">
-            What Our Clients Say
+            Trusted by the Top Traders
           </h2>
           <p className="mt-4 text-zinc-400 text-lg max-w-2xl mx-auto">
-            Don&apos;t just take our word for it — hear from the businesses we&apos;ve helped grow.
+            Discover why professional traders and institutions choose our platform for their trading operations.
           </p>
         </motion.div>
 
@@ -56,7 +56,7 @@ export default function Testimonial() {
               transition={{ duration: 0.5, delay: index * 0.12 }}
               className="rounded-2xl border border-zinc-800 bg-zinc-900/50 p-8"
             >
-              <Quote className="w-8 h-8 text-blue-500/20 mb-4" />
+              <Quote className="w-8 h-8 text-gold-500/20 mb-4" />
 
               <div className="flex items-center gap-1 mb-5">
                 {[...Array(5)].map((_, i) => (

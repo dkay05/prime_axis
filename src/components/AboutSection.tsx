@@ -17,7 +17,7 @@ export default function AboutSection() {
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
           >
-            <span className="text-xs tracking-[0.2em] uppercase text-blue-400 font-medium">Why SetupFX24</span>
+            <span className="text-xs tracking-[0.2em] uppercase text-gold-400 font-medium">Why SetupFX24</span>
             <h2 className="text-3xl md:text-4xl font-bold mt-4 tracking-tight text-white leading-tight">
               Your Partner for Software Development & Digital Growth
             </h2>
@@ -34,8 +34,8 @@ export default function AboutSection() {
 
             <div className="mt-8 space-y-4">
               <div className="flex items-start gap-4">
-                <div className="w-10 h-10 rounded-lg bg-blue-500/10 border border-blue-500/20 flex items-center justify-center flex-shrink-0">
-                  <Target className="w-5 h-5 text-blue-400" />
+                <div className="w-10 h-10 rounded-lg bg-gold-500/10 border border-gold-500/20 flex items-center justify-center flex-shrink-0">
+                  <Target className="w-5 h-5 text-gold-400" />
                 </div>
                 <div>
                   <h4 className="text-white font-semibold text-sm">Our Mission</h4>
@@ -45,8 +45,8 @@ export default function AboutSection() {
                 </div>
               </div>
               <div className="flex items-start gap-4">
-                <div className="w-10 h-10 rounded-lg bg-blue-500/10 border border-blue-500/20 flex items-center justify-center flex-shrink-0">
-                  <Eye className="w-5 h-5 text-blue-400" />
+                <div className="w-10 h-10 rounded-lg bg-gold-500/10 border border-gold-500/20 flex items-center justify-center flex-shrink-0">
+                  <Eye className="w-5 h-5 text-gold-400" />
                 </div>
                 <div>
                   <h4 className="text-white font-semibold text-sm">Our Vision</h4>
@@ -94,7 +94,7 @@ export default function AboutSection() {
               </div>
 
               <div className="relative z-10 text-center space-y-8">
-                <Globe className="w-16 h-16 text-blue-400/60 mx-auto" />
+                <Globe className="w-16 h-16 text-gold-400/60 mx-auto" />
                 <div className="grid grid-cols-2 gap-6">
                   <div className="bg-zinc-800/50 rounded-xl p-5 border border-zinc-700/50">
                     <div className="text-3xl font-bold text-white">250+</div>

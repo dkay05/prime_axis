@@ -43,7 +43,7 @@ export default function IBPartner() {
           transition={{ duration: 0.7 }}
           className="text-center mb-16"
         >
-          <span className="text-xs tracking-[0.2em] uppercase text-blue-400 font-medium">Industries We Serve</span>
+          <span className="text-xs tracking-[0.2em] uppercase text-gold-400 font-medium">Industries We Serve</span>
           <h2 className="text-3xl md:text-5xl font-bold mt-4 tracking-tight text-white">
             Solutions for Every Stage of Growth
           </h2>
@@ -60,17 +60,17 @@ export default function IBPartner() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.12 }}
-              className="group rounded-xl border border-zinc-800 bg-zinc-900/60 p-7 hover:border-blue-500/30 transition-all duration-300"
+              className="group rounded-xl border border-zinc-800 bg-zinc-900/60 p-7 hover:border-gold-500/30 transition-all duration-300"
             >
-              <div className="w-12 h-12 rounded-lg bg-blue-500/10 border border-blue-500/20 flex items-center justify-center mb-5 group-hover:bg-blue-500/20 transition-colors">
-                <card.icon className="w-6 h-6 text-blue-400" />
+              <div className="w-12 h-12 rounded-lg bg-gold-500/10 border border-gold-500/20 flex items-center justify-center mb-5 group-hover:bg-gold-500/20 transition-colors">
+                <card.icon className="w-6 h-6 text-gold-400" />
               </div>
               <h3 className="text-lg font-semibold text-white mb-3">{card.title}</h3>
               <p className="text-zinc-400 text-sm leading-relaxed mb-4">{card.description}</p>
               <ul className="space-y-1.5">
                 {card.features.map((f) => (
                   <li key={f} className="flex items-center gap-2 text-xs text-zinc-500">
-                    <div className="w-1 h-1 rounded-full bg-blue-400 flex-shrink-0" />
+                    <div className="w-1 h-1 rounded-full bg-gold-400 flex-shrink-0" />
                     {f}
                   </li>
                 ))}

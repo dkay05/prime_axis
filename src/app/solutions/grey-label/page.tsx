@@ -58,16 +58,16 @@ export default function GreyLabelPage() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
-        className="relative rounded-2xl border border-blue-500/20 bg-gradient-to-br from-blue-600/10 via-zinc-900/50 to-zinc-800/30 p-10 md:p-14 mb-20 overflow-hidden"
+        className="relative rounded-2xl border border-gold-500/20 bg-gradient-to-br from-gold-600/10 via-zinc-900/50 to-zinc-800/30 p-10 md:p-14 mb-20 overflow-hidden"
       >
-        <div className="absolute top-0 right-0 w-96 h-96 bg-blue-500/5 rounded-full blur-3xl" />
+        <div className="absolute top-0 right-0 w-96 h-96 bg-gold-500/5 rounded-full blur-3xl" />
         <div className="relative z-10 max-w-3xl">
-          <div className="inline-flex items-center gap-2 bg-blue-500/10 border border-blue-500/20 rounded-full px-4 py-1.5 mb-6">
-            <Tag className="w-4 h-4 text-blue-400" />
-            <span className="text-blue-400 text-xs font-semibold">Grey Label Platform</span>
+          <div className="inline-flex items-center gap-2 bg-gold-500/10 border border-gold-500/20 rounded-full px-4 py-1.5 mb-6">
+            <Tag className="w-4 h-4 text-gold-400" />
+            <span className="text-gold-400 text-xs font-semibold">Grey Label Platform</span>
           </div>
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 leading-tight">
-            Launch Your Brokerage <span className="text-blue-400">In Days, Not Months.</span>
+            Launch Your Brokerage <span className="text-gold-400">In Days, Not Months.</span>
           </h2>
           <p className="text-zinc-400 text-base md:text-lg leading-relaxed mb-8 max-w-2xl">
             Get a semi-branded trading platform with your logo and colors at a fraction of the cost of a full white-label. Ideal for startups and new brokers who want to test the market quickly.
@@ -75,7 +75,7 @@ export default function GreyLabelPage() {
           <div className="flex flex-wrap gap-4">
             <a
               href="/contact"
-              className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-500 text-white font-semibold px-8 py-3.5 rounded-lg transition-all duration-200 shadow-lg shadow-blue-600/25 text-sm"
+              className="inline-flex items-center gap-2 bg-gold-600 hover:bg-gold-500 text-white font-semibold px-8 py-3.5 rounded-lg transition-all duration-200 shadow-lg shadow-gold-600/25 text-sm"
             >
               Get Demo
               <ArrowRight className="w-4 h-4" />
@@ -101,10 +101,10 @@ export default function GreyLabelPage() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.4, delay: i * 0.08 }}
-              className="bg-zinc-900/50 border border-zinc-800 rounded-xl p-6 hover:border-blue-500/30 hover:shadow-lg hover:shadow-blue-500/5 transition-all duration-300 group"
+              className="bg-zinc-900/50 border border-zinc-800 rounded-xl p-6 hover:border-gold-500/30 hover:shadow-lg hover:shadow-gold-500/5 transition-all duration-300 group"
             >
-              <div className="w-11 h-11 rounded-lg bg-blue-500/10 border border-blue-500/20 flex items-center justify-center mb-4 group-hover:bg-blue-500/20 transition-colors">
-                <f.icon className="w-5 h-5 text-blue-400" />
+              <div className="w-11 h-11 rounded-lg bg-gold-500/10 border border-gold-500/20 flex items-center justify-center mb-4 group-hover:bg-gold-500/20 transition-colors">
+                <f.icon className="w-5 h-5 text-gold-400" />
               </div>
               <h4 className="text-white font-semibold text-sm mb-2">{f.title}</h4>
               <p className="text-zinc-400 text-xs leading-relaxed">{f.desc}</p>
@@ -120,7 +120,7 @@ export default function GreyLabelPage() {
         <div className="bg-zinc-900/50 border border-zinc-800 rounded-2xl overflow-hidden">
           <div className="grid grid-cols-3 bg-zinc-800/50 px-6 py-3">
             <span className="text-zinc-400 text-xs font-semibold">Feature</span>
-            <span className="text-blue-400 text-xs font-semibold text-center">Grey Label</span>
+            <span className="text-gold-400 text-xs font-semibold text-center">Grey Label</span>
             <span className="text-white text-xs font-semibold text-center">White Label</span>
           </div>
           {comparison.map((row, i) => (
@@ -129,12 +129,12 @@ export default function GreyLabelPage() {
               <span className="text-center text-sm">
                 {typeof row.grey === "boolean" ? (
                   row.grey ? (
-                    <CheckCircle className="w-4 h-4 text-blue-400 inline" />
+                    <CheckCircle className="w-4 h-4 text-gold-400 inline" />
                   ) : (
                     <span className="text-zinc-600">—</span>
                   )
                 ) : (
-                  <span className="text-blue-400 font-medium">{row.grey}</span>
+                  <span className="text-gold-400 font-medium">{row.grey}</span>
                 )}
               </span>
               <span className="text-center text-sm">
@@ -166,7 +166,7 @@ export default function GreyLabelPage() {
               transition={{ duration: 0.3, delay: i * 0.05 }}
               className="flex items-start gap-3 bg-zinc-900/30 border border-zinc-800/50 rounded-lg px-5 py-4"
             >
-              <CheckCircle className="w-5 h-5 text-blue-400 mt-0.5 flex-shrink-0" />
+              <CheckCircle className="w-5 h-5 text-gold-400 mt-0.5 flex-shrink-0" />
               <span className="text-zinc-300 text-sm">{b}</span>
             </motion.div>
           ))}
@@ -178,16 +178,16 @@ export default function GreyLabelPage() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.3 }}
-        className="text-center bg-gradient-to-br from-blue-600/10 via-zinc-900/50 to-blue-600/5 border border-blue-500/20 rounded-2xl p-10 md:p-14"
+        className="text-center bg-gradient-to-br from-gold-600/10 via-zinc-900/50 to-gold-600/5 border border-gold-500/20 rounded-2xl p-10 md:p-14"
       >
-        <Zap className="w-10 h-10 text-blue-400 mx-auto mb-4" />
+        <Zap className="w-10 h-10 text-gold-400 mx-auto mb-4" />
         <h3 className="text-2xl md:text-3xl font-bold text-white mb-3">Ready to Get Started?</h3>
         <p className="text-zinc-400 text-sm max-w-xl mx-auto mb-8">
           See the grey label platform in action. Schedule a free demo and launch your brokerage in days.
         </p>
         <a
           href="/contact"
-          className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-500 text-white font-semibold px-10 py-4 rounded-lg transition-all duration-200 shadow-lg shadow-blue-600/25 text-sm"
+          className="inline-flex items-center gap-2 bg-gold-600 hover:bg-gold-500 text-white font-semibold px-10 py-4 rounded-lg transition-all duration-200 shadow-lg shadow-gold-600/25 text-sm"
         >
           Get Demo
           <ArrowRight className="w-4 h-4" />

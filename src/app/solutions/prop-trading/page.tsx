@@ -54,9 +54,9 @@ export default function PropTradingPage() {
             </div>
             <div className="space-y-3">
               {[
-                { label: "Profit Target (8%)", current: "$5,200", target: "$8,000", pct: 65, color: "from-blue-500 to-green-500" },
+                { label: "Profit Target (8%)", current: "$5,200", target: "$8,000", pct: 65, color: "from-gold-500 to-green-500" },
                 { label: "Max Drawdown (10%)", current: "$3,100", target: "$10,000", pct: 31, color: "from-yellow-500 to-red-500" },
-                { label: "Trading Days", current: "8", target: "10 min", pct: 80, color: "from-blue-400 to-blue-600" },
+                { label: "Trading Days", current: "8", target: "10 min", pct: 80, color: "from-gold-400 to-gold-600" },
               ].map((bar) => (
                 <div key={bar.label}>
                   <div className="flex justify-between text-[10px] mb-1">
@@ -72,7 +72,7 @@ export default function PropTradingPage() {
             <div className="grid grid-cols-3 gap-2">
               {[
                 { label: "Win Rate", value: "68%", color: "text-green-400" },
-                { label: "Profit Factor", value: "2.4", color: "text-blue-400" },
+                { label: "Profit Factor", value: "2.4", color: "text-gold-400" },
                 { label: "Days Left", value: "22", color: "text-white" },
               ].map((stat) => (
                 <div key={stat.label} className="bg-zinc-800/50 rounded p-2.5 text-center">

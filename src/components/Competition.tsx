@@ -52,7 +52,7 @@ export default function Competition() {
           transition={{ duration: 0.7 }}
           className="text-center mb-16"
         >
-          <span className="text-xs tracking-[0.2em] uppercase text-blue-400 font-medium">Case Studies</span>
+          <span className="text-xs tracking-[0.2em] uppercase text-gold-400 font-medium">Case Studies</span>
           <h2 className="text-3xl md:text-5xl font-bold mt-4 tracking-tight text-white">
             Real Results, Real Impact
           </h2>
@@ -69,16 +69,16 @@ export default function Competition() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.12 }}
-              className="group rounded-xl border border-zinc-800 bg-zinc-900/50 overflow-hidden hover:border-blue-500/30 transition-all duration-300"
+              className="group rounded-xl border border-zinc-800 bg-zinc-900/50 overflow-hidden hover:border-gold-500/30 transition-all duration-300"
             >
               {/* Header */}
               <div className="p-7 pb-5">
                 <div className="flex items-center justify-between mb-4">
                   <div className="flex items-center gap-2">
-                    <study.icon className="w-4 h-4 text-blue-400" />
-                    <span className="text-xs text-blue-400 font-medium">{study.category}</span>
+                    <study.icon className="w-4 h-4 text-gold-400" />
+                    <span className="text-xs text-gold-400 font-medium">{study.category}</span>
                   </div>
-                  <ArrowUpRight className="w-4 h-4 text-zinc-600 group-hover:text-blue-400 transition-colors" />
+                  <ArrowUpRight className="w-4 h-4 text-zinc-600 group-hover:text-gold-400 transition-colors" />
                 </div>
                 <h3 className="text-lg font-semibold text-white mb-3 leading-snug">{study.title}</h3>
                 <p className="text-zinc-400 text-sm leading-relaxed">{study.description}</p>

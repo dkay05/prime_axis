@@ -67,7 +67,7 @@ export default function SignInDialog({ isOpen, onClose }: SignInDialogProps) {
                       required
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
-                      className="w-full bg-zinc-800/50 border border-zinc-700 rounded-lg pl-10 pr-4 py-3 text-white text-sm focus:outline-none focus:border-blue-500 transition-colors placeholder:text-zinc-500"
+                      className="w-full bg-zinc-800/50 border border-zinc-700 rounded-lg pl-10 pr-4 py-3 text-white text-sm focus:outline-none focus:border-gold-500 transition-colors placeholder:text-zinc-500"
                       placeholder="your@email.com"
                     />
                   </div>
@@ -82,7 +82,7 @@ export default function SignInDialog({ isOpen, onClose }: SignInDialogProps) {
                       required
                       value={password}
                       onChange={(e) => setPassword(e.target.value)}
-                      className="w-full bg-zinc-800/50 border border-zinc-700 rounded-lg pl-10 pr-11 py-3 text-white text-sm focus:outline-none focus:border-blue-500 transition-colors placeholder:text-zinc-500"
+                      className="w-full bg-zinc-800/50 border border-zinc-700 rounded-lg pl-10 pr-11 py-3 text-white text-sm focus:outline-none focus:border-gold-500 transition-colors placeholder:text-zinc-500"
                       placeholder="Enter your password"
                     />
                     <button
@@ -97,17 +97,17 @@ export default function SignInDialog({ isOpen, onClose }: SignInDialogProps) {
 
                 <div className="flex items-center justify-between">
                   <label className="flex items-center gap-2 cursor-pointer">
-                    <input type="checkbox" className="w-4 h-4 rounded border-zinc-700 bg-zinc-800 text-blue-600 focus:ring-blue-500 focus:ring-offset-0" />
+                    <input type="checkbox" className="w-4 h-4 rounded border-zinc-700 bg-zinc-800 text-gold-600 focus:ring-gold-500 focus:ring-offset-0" />
                     <span className="text-zinc-400 text-xs">Remember me</span>
                   </label>
-                  <a href="#" className="text-blue-400 hover:text-blue-300 text-xs font-medium transition-colors">
+                  <a href="#" className="text-gold-400 hover:text-gold-300 text-xs font-medium transition-colors">
                     Forgot password?
                   </a>
                 </div>
 
                 <button
                   type="submit"
-                  className="w-full bg-blue-600 hover:bg-blue-500 text-white font-semibold py-3 rounded-lg transition-all duration-200 shadow-lg shadow-blue-600/25 text-sm"
+                  className="w-full bg-gold-600 hover:bg-gold-500 text-white font-semibold py-3 rounded-lg transition-all duration-200 shadow-lg shadow-gold-600/25 text-sm"
                 >
                   Sign In
                 </button>
@@ -143,7 +143,7 @@ export default function SignInDialog({ isOpen, onClose }: SignInDialogProps) {
               <div className="px-6 pb-6 text-center">
                 <p className="text-zinc-500 text-xs">
                   Don&apos;t have an account?{" "}
-                  <a href="#" className="text-blue-400 hover:text-blue-300 font-medium transition-colors">
+                  <a href="#" className="text-gold-400 hover:text-gold-300 font-medium transition-colors">
                     Sign Up
                   </a>
                 </p>

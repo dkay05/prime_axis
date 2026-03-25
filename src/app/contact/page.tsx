@@ -28,7 +28,7 @@ export default function ContactPage() {
                 required
                 value={formData.name}
                 onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                className="w-full bg-zinc-900/50 border border-zinc-800 rounded-lg px-4 py-3 text-white text-sm focus:outline-none focus:border-blue-500 transition-colors"
+                className="w-full bg-zinc-900/50 border border-zinc-800 rounded-lg px-4 py-3 text-white text-sm focus:outline-none focus:border-gold-500 transition-colors"
                 placeholder="Your name"
               />
             </div>
@@ -39,7 +39,7 @@ export default function ContactPage() {
                 required
                 value={formData.email}
                 onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                className="w-full bg-zinc-900/50 border border-zinc-800 rounded-lg px-4 py-3 text-white text-sm focus:outline-none focus:border-blue-500 transition-colors"
+                className="w-full bg-zinc-900/50 border border-zinc-800 rounded-lg px-4 py-3 text-white text-sm focus:outline-none focus:border-gold-500 transition-colors"
                 placeholder="your@email.com"
               />
             </div>
@@ -49,7 +49,7 @@ export default function ContactPage() {
                 type="tel"
                 value={formData.phone}
                 onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                className="w-full bg-zinc-900/50 border border-zinc-800 rounded-lg px-4 py-3 text-white text-sm focus:outline-none focus:border-blue-500 transition-colors"
+                className="w-full bg-zinc-900/50 border border-zinc-800 rounded-lg px-4 py-3 text-white text-sm focus:outline-none focus:border-gold-500 transition-colors"
                 placeholder="+91 XXXXX XXXXX"
               />
             </div>
@@ -60,13 +60,13 @@ export default function ContactPage() {
                 rows={5}
                 value={formData.message}
                 onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                className="w-full bg-zinc-900/50 border border-zinc-800 rounded-lg px-4 py-3 text-white text-sm focus:outline-none focus:border-blue-500 transition-colors resize-none"
+                className="w-full bg-zinc-900/50 border border-zinc-800 rounded-lg px-4 py-3 text-white text-sm focus:outline-none focus:border-gold-500 transition-colors resize-none"
                 placeholder="Tell us about your project..."
               />
             </div>
             <button
               type="submit"
-              className="w-full bg-blue-600 hover:bg-blue-500 text-white font-semibold py-3.5 rounded-lg transition-all duration-200 shadow-lg shadow-blue-600/25 text-sm"
+              className="w-full bg-gold-600 hover:bg-gold-500 text-white font-semibold py-3.5 rounded-lg transition-all duration-200 shadow-lg shadow-gold-600/25 text-sm"
             >
               Send Message
             </button>
@@ -78,7 +78,7 @@ export default function ContactPage() {
             <h3 className="text-white font-semibold text-lg mb-4">Contact Information</h3>
             <div className="space-y-4">
               <a href="mailto:setupfx24@gmail.com" className="flex items-center gap-3 text-zinc-400 hover:text-white transition-colors">
-                <Mail className="w-5 h-5 text-blue-400" />
+                <Mail className="w-5 h-5 text-gold-400" />
                 <span className="text-sm">setupfx24@gmail.com</span>
               </a>
               <a href="https://wa.me/19082280305" className="flex items-center gap-3 text-zinc-400 hover:text-white transition-colors">
@@ -92,7 +92,7 @@ export default function ContactPage() {
             <h3 className="text-white font-semibold text-lg mb-4">Office Location</h3>
             <div className="space-y-4">
               <div className="flex items-start gap-3">
-                <MapPin className="w-5 h-5 text-blue-400 mt-0.5 flex-shrink-0" />
+                <MapPin className="w-5 h-5 text-gold-400 mt-0.5 flex-shrink-0" />
                 <div>
                   <p className="text-zinc-300 text-sm font-medium">United Kingdom</p>
                   <p className="text-zinc-400 text-xs mt-1">Office 9364hn 3 Fitzroy Place, Area 1/1, Sauchiehall Street, Glasgow City Centre, G3 7RH</p>

@@ -18,9 +18,9 @@ const products = [
     title: "CRED mint",
     description: "invest in mutual funds, fixed deposits, and more. build wealth effortlessly with curated options.",
     tag: "INVESTMENTS",
-    gradient: "from-blue-500/20 to-blue-900/20",
-    borderColor: "border-blue-500/20",
-    iconColor: "text-blue-400",
+    gradient: "from-gold-500/20 to-gold-900/20",
+    borderColor: "border-gold-500/20",
+    iconColor: "text-gold-400",
   },
   {
     icon: Car,

@@ -21,15 +21,15 @@ export default function CaseStudiesPage() {
           <div key={study.title} className="bg-zinc-900/50 border border-zinc-800 rounded-xl p-6 hover:border-zinc-700 transition-colors group cursor-pointer">
             <div className="flex items-center justify-between mb-3">
               <div className="flex items-center gap-2">
-                <FolderKanban className="w-4 h-4 text-blue-400" />
-                <span className="text-blue-400 text-xs font-medium">{study.industry}</span>
+                <FolderKanban className="w-4 h-4 text-gold-400" />
+                <span className="text-gold-400 text-xs font-medium">{study.industry}</span>
               </div>
-              <ArrowUpRight className="w-4 h-4 text-zinc-500 group-hover:text-blue-400 transition-colors" />
+              <ArrowUpRight className="w-4 h-4 text-zinc-500 group-hover:text-gold-400 transition-colors" />
             </div>
             <h3 className="text-white font-semibold text-lg mb-2">{study.title}</h3>
             <p className="text-zinc-400 text-sm leading-relaxed mb-4">{study.desc}</p>
-            <div className="bg-blue-500/10 border border-blue-500/20 rounded-lg px-4 py-2 mb-4">
-              <span className="text-blue-400 text-sm font-semibold">{study.result}</span>
+            <div className="bg-gold-500/10 border border-gold-500/20 rounded-lg px-4 py-2 mb-4">
+              <span className="text-gold-400 text-sm font-semibold">{study.result}</span>
             </div>
             <div className="flex flex-wrap gap-2">
               {study.tech.map((t) => (

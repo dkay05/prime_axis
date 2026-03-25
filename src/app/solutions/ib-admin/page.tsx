@@ -48,7 +48,7 @@ export default function IBAdminPage() {
               {[
                 { label: "Total IBs", value: "342", color: "text-white" },
                 { label: "Active Clients", value: "8,920", color: "text-green-400" },
-                { label: "Monthly Comm.", value: "$48.2K", color: "text-blue-400" },
+                { label: "Monthly Comm.", value: "$48.2K", color: "text-gold-400" },
               ].map((stat) => (
                 <div key={stat.label} className="bg-zinc-800/50 rounded p-3 text-center">
                   <div className="text-[9px] text-zinc-500">{stat.label}</div>

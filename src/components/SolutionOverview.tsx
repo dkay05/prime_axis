@@ -54,7 +54,7 @@ export default function SolutionOverview() {
           transition={{ duration: 0.7 }}
           className="text-center mb-16"
         >
-          <span className="text-xs tracking-[0.2em] uppercase text-blue-400 font-medium">Our Services</span>
+          <span className="text-xs tracking-[0.2em] uppercase text-gold-400 font-medium">Our Services</span>
           <h2 className="text-3xl md:text-5xl font-bold mt-4 tracking-tight text-white">
             Software Development Services
           </h2>
@@ -74,14 +74,14 @@ export default function SolutionOverview() {
             <motion.div
               key={item.title}
               variants={itemVariants}
-              className="group relative rounded-xl border border-zinc-800 bg-zinc-900/50 p-7 hover:border-blue-500/30 hover:bg-zinc-900 transition-all duration-300 cursor-pointer"
+              className="group relative rounded-xl border border-zinc-800 bg-zinc-900/50 p-7 hover:border-gold-500/30 hover:bg-zinc-900 transition-all duration-300 cursor-pointer"
             >
-              <div className="w-12 h-12 rounded-lg bg-blue-500/10 border border-blue-500/20 flex items-center justify-center mb-5 group-hover:bg-blue-500/20 transition-colors">
-                <item.icon className="w-6 h-6 text-blue-400" />
+              <div className="w-12 h-12 rounded-lg bg-gold-500/10 border border-gold-500/20 flex items-center justify-center mb-5 group-hover:bg-gold-500/20 transition-colors">
+                <item.icon className="w-6 h-6 text-gold-400" />
               </div>
               <h3 className="text-lg font-semibold text-white mb-2">{item.title}</h3>
               <p className="text-zinc-400 text-sm leading-relaxed">{item.description}</p>
-              <div className="mt-5 text-blue-400 text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity flex items-center gap-1">
+              <div className="mt-5 text-gold-400 text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity flex items-center gap-1">
                 Learn more <span className="group-hover:translate-x-1 transition-transform inline-block">→</span>
               </div>
             </motion.div>

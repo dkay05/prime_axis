@@ -64,7 +64,7 @@ export default function CopyTradingPage() {
               </div>
             ))}
             <div className="flex gap-2 pt-1">
-              <div className="flex-1 bg-blue-600/20 text-blue-400 text-[10px] text-center py-2 rounded-lg font-medium cursor-pointer hover:bg-blue-600/30 transition-colors">
+              <div className="flex-1 bg-gold-600/20 text-gold-400 text-[10px] text-center py-2 rounded-lg font-medium cursor-pointer hover:bg-gold-600/30 transition-colors">
                 Follow & Copy
               </div>
               <div className="flex-1 bg-zinc-800/50 text-zinc-400 text-[10px] text-center py-2 rounded-lg font-medium cursor-pointer hover:bg-zinc-800 transition-colors">

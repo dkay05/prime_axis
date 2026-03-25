@@ -70,8 +70,8 @@ export default function CreditScore() {
                 className="absolute bottom-8 left-0 glass-card rounded-xl px-4 py-3"
               >
                 <div className="flex items-center gap-2">
-                  <Shield className="text-blue-400 w-4 h-4" />
-                  <span className="text-blue-400 text-sm font-medium">Protected</span>
+                  <Shield className="text-gold-400 w-4 h-4" />
+                  <span className="text-gold-400 text-sm font-medium">Protected</span>
                 </div>
               </motion.div>
             </div>

@@ -110,14 +110,14 @@ export default function PricingPage() {
           {digitalMarketingPlans.map((plan) => (
             <div
               key={plan.name}
-              className={`rounded-2xl p-8 border transition-all duration-300 hover:scale-[1.03] hover:shadow-xl hover:shadow-blue-500/10 hover:border-blue-500/40 ${
+              className={`rounded-2xl p-8 border transition-all duration-300 hover:scale-[1.03] hover:shadow-xl hover:shadow-gold-500/10 hover:border-gold-500/40 ${
                 plan.highlighted
-                  ? "bg-blue-600/10 border-blue-500/30 ring-1 ring-blue-500/20"
+                  ? "bg-gold-600/10 border-gold-500/30 ring-1 ring-gold-500/20"
                   : "bg-zinc-900/50 border-zinc-800"
               }`}
             >
               {plan.highlighted && (
-                <div className="text-blue-400 text-xs font-semibold uppercase tracking-wider mb-4">Most Popular</div>
+                <div className="text-gold-400 text-xs font-semibold uppercase tracking-wider mb-4">Most Popular</div>
               )}
               <h3 className="text-white text-2xl font-bold">{plan.name}</h3>
               <div className="mt-4 mb-2">
@@ -128,7 +128,7 @@ export default function PricingPage() {
               <ul className="space-y-3 mb-8">
                 {plan.features.map((feature) => (
                   <li key={feature} className="flex items-start gap-2.5">
-                    <CheckCircle className="w-4 h-4 text-blue-400 mt-0.5 flex-shrink-0" />
+                    <CheckCircle className="w-4 h-4 text-gold-400 mt-0.5 flex-shrink-0" />
                     <span className="text-zinc-300 text-sm">{feature}</span>
                   </li>
                 ))}
@@ -137,7 +137,7 @@ export default function PricingPage() {
                 href="/contact"
                 className={`block text-center py-3 rounded-lg font-semibold text-sm transition-all ${
                   plan.highlighted
-                    ? "bg-blue-600 hover:bg-blue-500 text-white shadow-lg shadow-blue-600/25"
+                    ? "bg-gold-600 hover:bg-gold-500 text-white shadow-lg shadow-gold-600/25"
                     : "border border-zinc-700 hover:border-zinc-500 text-white hover:bg-white/5"
                 }`}
               >
@@ -156,29 +156,29 @@ export default function PricingPage() {
           {brokeragePlans.map((plan) => (
             <div
               key={plan.name}
-              className={`rounded-2xl p-8 border transition-all duration-300 hover:scale-[1.03] hover:shadow-xl hover:shadow-blue-500/10 hover:border-blue-500/40 ${
+              className={`rounded-2xl p-8 border transition-all duration-300 hover:scale-[1.03] hover:shadow-xl hover:shadow-gold-500/10 hover:border-gold-500/40 ${
                 plan.highlighted
-                  ? "bg-blue-600/10 border-blue-500/30 ring-1 ring-blue-500/20"
+                  ? "bg-gold-600/10 border-gold-500/30 ring-1 ring-gold-500/20"
                   : "bg-zinc-900/50 border-zinc-800"
               }`}
             >
-              <div className="text-blue-400 text-xs font-semibold uppercase tracking-wider mb-4">{plan.name}</div>
+              <div className="text-gold-400 text-xs font-semibold uppercase tracking-wider mb-4">{plan.name}</div>
               <div className="mt-2 mb-1">
                 <span className="text-4xl font-bold text-white">{plan.price}</span>
                 <span className="text-zinc-400 text-sm ml-2">{plan.period}</span>
               </div>
-              <p className="text-blue-400/80 text-sm mb-6">{plan.subPrice}</p>
+              <p className="text-gold-400/80 text-sm mb-6">{plan.subPrice}</p>
               <ul className="space-y-3 mb-8">
                 {plan.features.map((feature) => (
                   <li key={feature} className="flex items-start gap-2.5">
-                    <CheckCircle className="w-4 h-4 text-blue-400 mt-0.5 flex-shrink-0" />
+                    <CheckCircle className="w-4 h-4 text-gold-400 mt-0.5 flex-shrink-0" />
                     <span className="text-zinc-300 text-sm font-medium">{feature}</span>
                   </li>
                 ))}
               </ul>
               <a
                 href="/contact"
-                className="block text-center py-3 rounded-lg font-semibold text-sm transition-all bg-blue-600 hover:bg-blue-500 text-white shadow-lg shadow-blue-600/25"
+                className="block text-center py-3 rounded-lg font-semibold text-sm transition-all bg-gold-600 hover:bg-gold-500 text-white shadow-lg shadow-gold-600/25"
               >
                 {plan.cta}
               </a>
