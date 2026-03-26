@@ -26,6 +26,7 @@ import {
 } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
+import brandLogo from "@/assets/primeaxis-logo.png";
 import SignInDialog from "./SignInDialog";
 
 const marketsItems = [
@@ -127,7 +128,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-[72px]">
           {/* Logo */}
           <Link href="/" className="flex items-center flex-shrink-0">
-            <Image src="/primeAxis_logo_L.png" alt="PrimeAxis" width={160} height={40} className="h-10 w-auto" priority />
+            <Image src={brandLogo} alt="PrimeAxis" width={160} height={40} className="h-10 w-auto" priority />
           </Link>
 
           {/* Desktop Nav */}
