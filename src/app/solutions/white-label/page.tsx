@@ -25,7 +25,7 @@ const features = [
 ];
 
 const benefits = [
-  "100% white-label — zero SetupFX24 branding visible to your clients",
+  "100% white-label — zero Prime_axis  branding visible to your clients",
   "Go live in as little as 2–4 weeks with a fully branded platform",
   "Mobile apps published under your own App Store & Play Store accounts",
   "Continuous updates and new features without any downtime",

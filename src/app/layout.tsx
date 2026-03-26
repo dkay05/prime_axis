@@ -14,7 +14,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "SetupFX24 — Global Software Development & Digital Marketing Company",
+  title: "Prime_axis  — Global Software Development & Digital Marketing Company",
   description:
     "Custom web & mobile applications, CRM systems, and data-driven digital marketing strategies. Build, scale, and grow your business in the digital world.",
 };

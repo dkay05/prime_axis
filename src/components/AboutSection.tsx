@@ -17,12 +17,12 @@ export default function AboutSection() {
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
           >
-            <span className="text-xs tracking-[0.2em] uppercase text-gold-400 font-medium">Why SetupFX24</span>
+            <span className="text-xs tracking-[0.2em] uppercase text-gold-400 font-medium">Why Prime_axis </span>
             <h2 className="text-3xl md:text-4xl font-bold mt-4 tracking-tight text-white leading-tight">
               Your Partner for Software Development & Digital Growth
             </h2>
             <p className="mt-6 text-zinc-400 text-base leading-relaxed">
-              SetupFX24 is a global software development and digital marketing company helping businesses
+              Prime_axis  is a global software development and digital marketing company helping businesses
               build, scale, and grow in the digital world. We combine cutting-edge technology with
               data-driven marketing strategies to deliver measurable results.
             </p>

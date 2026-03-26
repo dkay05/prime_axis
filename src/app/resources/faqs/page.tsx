@@ -5,7 +5,7 @@ import { useState } from "react";
 import { ChevronDown } from "lucide-react";
 
 const faqs = [
-  { q: "What services does SetupFX24 offer?", a: "We offer custom software development, web & mobile app development, CRM & business systems, UI/UX design, and comprehensive digital marketing services including SEO, paid advertising, social media marketing, and content marketing." },
+  { q: "What services does Prime_axis  offer?", a: "We offer custom software development, web & mobile app development, CRM & business systems, UI/UX design, and comprehensive digital marketing services including SEO, paid advertising, social media marketing, and content marketing." },
   { q: "How long does a typical project take?", a: "Project timelines vary based on complexity. A simple website takes 2-4 weeks, a web application 6-12 weeks, and a mobile app 8-16 weeks. We provide detailed timelines during the discovery phase." },
   { q: "What is your pricing model?", a: "We offer flexible pricing models including fixed-price projects, hourly rates, and dedicated team arrangements. We provide transparent quotes after understanding your requirements." },
   { q: "Do you provide ongoing support after launch?", a: "Yes, we offer ongoing maintenance and support packages to ensure your application stays updated, secure, and performing optimally. We also provide 24/7 emergency support for critical issues." },
