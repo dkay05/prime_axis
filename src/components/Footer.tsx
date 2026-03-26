@@ -1,7 +1,6 @@
 "use client";
 
 import { Mail, MapPin } from "lucide-react";
-import Image from "next/image";
 import brandLogo from "@/assets/primeaxis-logo.png";
 
 export default function Footer() {
@@ -16,7 +15,14 @@ export default function Footer() {
           {/* Left - Brand & Address */}
           <div className="max-w-sm">
             <div className="mb-5">
-              <Image src={brandLogo} alt="PrimeAxis" width={140} height={36} className="h-9 w-auto" />
+              <img
+                src={brandLogo.src}
+                alt="PrimeAxis"
+                width={140}
+                height={36}
+                className="h-9 w-auto"
+                decoding="async"
+              />
             </div>
             <h3 className="text-white font-semibold text-lg mb-3">PrimeAxis Capital LLC</h3>
             <p className="text-zinc-400 text-sm mb-4">Registration No: 4415 LLC 2026</p>

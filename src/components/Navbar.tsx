@@ -25,7 +25,6 @@ import {
   GraduationCap,
 } from "lucide-react";
 import Link from "next/link";
-import Image from "next/image";
 import brandLogo from "@/assets/primeaxis-logo.png";
 import SignInDialog from "./SignInDialog";
 
@@ -128,7 +127,16 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-[72px]">
           {/* Logo */}
           <Link href="/" className="flex items-center flex-shrink-0">
-            <Image src={brandLogo} alt="PrimeAxis" width={160} height={40} className="h-10 w-auto" priority />
+            {/* Plain <img>: avoids /_next/image which returns HTML on this host */}
+            <img
+              src={brandLogo.src}
+              alt="PrimeAxis"
+              width={160}
+              height={40}
+              className="h-10 w-auto"
+              fetchPriority="high"
+              decoding="async"
+            />
           </Link>
 
           {/* Desktop Nav */}
