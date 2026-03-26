@@ -1,7 +1,7 @@
 "use client";
 
 import PageLayout from "@/components/PageLayout";
-import { Mail, MessageCircle, MapPin } from "lucide-react";
+import { Mail, MapPin } from "lucide-react";
 import { useState } from "react";
 
 export default function ContactPage() {
@@ -9,7 +9,7 @@ export default function ContactPage() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const mailtoLink = `mailto:setupfx24@gmail.com?subject=Inquiry from ${formData.name}&body=${encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\nPhone: ${formData.phone}\n\nMessage:\n${formData.message}`)}`;
+    const mailtoLink = `mailto:support@primeaxiscapitals.com?subject=Inquiry from ${formData.name}&body=${encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\nPhone: ${formData.phone}\n\nMessage:\n${formData.message}`)}`;
     window.location.href = mailtoLink;
   };
 
@@ -77,15 +77,11 @@ export default function ContactPage() {
           <div className="bg-zinc-900/50 border border-zinc-800 rounded-xl p-6">
             <h3 className="text-white font-semibold text-lg mb-4">Contact Information</h3>
             <div className="space-y-4">
-              <a href="mailto:setupfx24@gmail.com" className="flex items-center gap-3 text-zinc-400 hover:text-white transition-colors">
+              <a href="mailto:support@primeaxiscapitals.com" className="flex items-center gap-3 text-zinc-400 hover:text-white transition-colors">
                 <Mail className="w-5 h-5 text-gold-400" />
-                <span className="text-sm">setupfx24@gmail.com</span>
+                <span className="text-sm">support@primeaxiscapitals.com</span>
               </a>
-              <a href="https://wa.me/19082280305" className="flex items-center gap-3 text-zinc-400 hover:text-white transition-colors">
-                <MessageCircle className="w-5 h-5 text-green-400" />
-                <span className="text-sm">WhatsApp: +1 (908) 228-0305</span>
-              </a>
-            </div>
+                          </div>
           </div>
 
           <div className="bg-zinc-900/50 border border-zinc-800 rounded-xl p-6">

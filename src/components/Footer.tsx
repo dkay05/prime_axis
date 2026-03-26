@@ -1,6 +1,6 @@
 "use client";
 
-import { Mail, MessageCircle, MapPin } from "lucide-react";
+import { Mail, MapPin } from "lucide-react";
 import Image from "next/image";
 
 export default function Footer() {
@@ -17,15 +17,20 @@ export default function Footer() {
             <div className="mb-5">
               <Image src="/primeAxis_logo_L.png" alt="PrimeAxis" width={140} height={36} className="h-9 w-auto" />
             </div>
-            <p className="text-white font-semibold text-sm mb-2">SetupFX Softtech (OPC) Private Limited</p>
-            <div className="flex items-start gap-2.5 mb-5">
-              <MapPin className="w-4 h-4 text-gold-400 mt-0.5 flex-shrink-0" />
-              <p className="text-zinc-400 text-xs leading-relaxed">
-                Office 9364hn 3 Fitzroy Place, Area 1/1, Sauchiehall Street, Glasgow City Centre, United Kingdom, G3 7RH
+            <h3 className="text-white font-semibold text-lg mb-3">PrimeAxis Capital LLC</h3>
+            <p className="text-zinc-400 text-sm mb-4">Registration No: 4415 LLC 2026</p>
+            
+            <div className="mb-6">
+              <h4 className="text-white font-semibold text-sm mb-2">Registered Address:</h4>
+              <p className="text-zinc-400 text-sm leading-relaxed">
+                Suite 450, Beachmont<br />
+                Kingstown, SVG<br />
+                PO Box 1510
               </p>
             </div>
+
             <p className="text-zinc-500 text-xs leading-relaxed">
-              Global software development and digital marketing company powering brokerages and businesses worldwide.
+              Professional forex trading platform providing access to global markets with advanced trading tools and secure execution.
             </p>
           </div>
 
@@ -34,22 +39,14 @@ export default function Footer() {
             <h4 className="text-white font-semibold text-sm mb-5">Get in Touch</h4>
             <ul className="space-y-4">
               <li>
-                <a href="mailto:setupfx24@gmail.com" className="flex items-center gap-3 text-zinc-400 text-sm hover:text-white transition-colors group">
+                <a href="mailto:support@primeaxiscapitals.com" className="flex items-center gap-3 text-zinc-400 text-sm hover:text-white transition-colors group">
                   <div className="w-9 h-9 rounded-lg bg-gold-500/10 border border-gold-500/20 flex items-center justify-center group-hover:bg-gold-500/20 transition-colors">
                     <Mail className="w-4 h-4 text-gold-400" />
                   </div>
-                  setupfx24@gmail.com
+                  support@primeaxiscapitals.com
                 </a>
               </li>
-              <li>
-                <a href="https://wa.me/19082280305" className="flex items-center gap-3 text-zinc-400 text-sm hover:text-white transition-colors group">
-                  <div className="w-9 h-9 rounded-lg bg-green-500/10 border border-green-500/20 flex items-center justify-center group-hover:bg-green-500/20 transition-colors">
-                    <MessageCircle className="w-4 h-4 text-green-400" />
-                  </div>
-                  WhatsApp: +1 (908) 228-0305
-                </a>
-              </li>
-            </ul>
+                          </ul>
           </div>
         </div>
 
@@ -75,7 +72,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-zinc-800/50 pt-6 flex flex-col md:flex-row items-center justify-between gap-3">
           <p className="text-zinc-600 text-xs">
-            &copy; {new Date().getFullYear()} SetupFX24. All rights reserved.
+            &copy; {new Date().getFullYear()} PrimeAxis Capital LLC. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
             <a href="/" className="text-zinc-600 hover:text-zinc-400 text-xs transition-colors">Privacy</a>
